@@ -1,0 +1,67 @@
+body{
+ background-color: #212121;
+	
+}
+.wrapper{
+	margin: 0px auto;
+	height: auto;
+	width: 1000px;
+	border:10px double #F1F1F1;
+}
+.imageGallery{
+	position:absolute; top: 20px; left: 180px; z-index: 2;height: 200px;width: 200px; background:green no-repeat;
+	border:10px dotted #CE176F;
+}
+.imageGallery button{
+	margin-left: 33px;
+	padding: 10px 10px
+	opacity: 1;
+    transition: 0.3s;
+    background-color: #f4511e;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+.imageGallery .btn{
+	margin-left: 0px;
+	opacity: 1;
+    transition: 0.3s;
+    background-color: #1D1C21;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+}
+.imageSlider{
+	position:relative; top: 0px; left: 0px; z-index: 1;
+	background-color: transparent;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	align-items: center;
+
+}
+.imageSlider  img{
+	background-size: cover; 
+	background-repeat: no-repeat;
+	align-items: center;
+}
+.imageDetails{
+	position:absolute; top: 20px; left: 400px; z-index: 2; height: 280px;width: 500px; background:#FAEBD7 no-repeat;font-size: 10px;
+	padding-left: 20px; font-family: cursive;border:2px dotted;color:#800080;
+}
+/* The Close Button */
+.close {
+    position: absolute;
+    right: 5px;
+    color: #483D8B;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
